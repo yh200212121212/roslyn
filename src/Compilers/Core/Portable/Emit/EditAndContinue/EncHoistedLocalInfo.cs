@@ -8,7 +8,7 @@ using Roslyn.Utilities;
 namespace Microsoft.CodeAnalysis.Emit
 {
     [DebuggerDisplay("{GetDebuggerDisplay(), nq}")]
-    internal struct EncHoistedLocalInfo : IEquatable<EncHoistedLocalInfo>
+    internal class EncHoistedLocalInfo : IEquatable<EncHoistedLocalInfo>
     {
         public readonly LocalSlotDebugInfo SlotInfo;
         public readonly Cci.ITypeReference Type;

@@ -156,3 +156,4 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/src/Roslyn2013.VC.VC.opendb
